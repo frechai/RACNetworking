@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'RacRequestDemo' do
+   	 pod 'YTKNetwork', '3.0.0'
+	pod 'ReactiveObjC', '3.1.1'
+
+
+  target 'RacRequestDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RacRequestDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
